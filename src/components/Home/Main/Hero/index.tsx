@@ -11,7 +11,10 @@ export default function Hero() {
         <S.WrapperText>
           <S.Title><span>Scale Fintech</span><br/>Safe And Secure</S.Title>
           <S.Description>Ship your fintech products to your customers with fast and reliable processes. Secure and highly customizable. Rise Finance is the best partner for you if you want to scale your finance products worldwide.</S.Description>
-          <S.Button>Consultation</S.Button>
+          <S.Button>
+            <span>Consultation</span>
+            <S.ButtonLayer className='button-layer' />
+          </S.Button>
         </S.WrapperText>
         <S.WrapperCard>
           <S.CardImage img="url(./public/cards.svg)"/>

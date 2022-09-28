@@ -9,7 +9,7 @@ export default function Hero() {
 
       <S.Container>
         <S.WrapperText>
-          <S.Title><span>Scale Fintech</span><br/>Safe And Secure</S.Title>
+          <S.Title><S.TitleGradient>Scale Fintech</S.TitleGradient><br/>Safe And Secure</S.Title>
           <S.Description>Ship your fintech products to your customers with fast and reliable processes. Secure and highly customizable. Rise Finance is the best partner for you if you want to scale your finance products worldwide.</S.Description>
           <S.Button>
             <span>Consultation</span>

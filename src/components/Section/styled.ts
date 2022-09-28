@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div<{ background?: string }>`
-  width: 100vw;
+  width: 100%;
   height: max-content;
   background: ${props => props.background};
   background-repeat: no-repeat;
@@ -10,5 +10,5 @@ export const Container = styled.div<{ background?: string }>`
 `
 
 Container.defaultProps = {
-  background: ''
+  background: '#fff',
 }

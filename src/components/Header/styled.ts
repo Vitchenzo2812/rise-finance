@@ -42,6 +42,7 @@ export const Menu = styled.div<{ isOpened: boolean }>`
   }
   ${props => props.isOpened ? css`
   div:nth-child(2) { display: none; }
+
   div:nth-child(1) { 
     transform: rotate(-45deg) translateY(.9rem);
   }

@@ -3,14 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   color: #fff;
+  padding-top: 10rem;
 `
 
 export const WrapperText = styled.div`
   grid-column: 1;
   display: flex;
+  flex-direction: column;
   row-gap: 2rem;
   padding: 10rem;
-  flex-direction: column;
 `
 
 export const WrapperCard = styled.div`
@@ -20,6 +21,13 @@ export const WrapperCard = styled.div`
 export const Title = styled.h1`
   font-size: 6rem;
   line-height: 100%;
+`
+
+export const TitleGradient = styled.span`
+  background: linear-gradient(90deg, rgba(58,73,249,1) 0%, rgba(129,45,226,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 `
 
 export const Description = styled.p`
@@ -88,7 +96,9 @@ export const Sponsors = styled.div<{ img: string, sizeW: string, sizeH: string }
 export const Footer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 19.1rem;
 
-  padding: 1.5rem;
+  padding: 3.5rem;
+  padding-bottom: 14.9rem;
 `

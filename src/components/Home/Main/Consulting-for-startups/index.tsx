@@ -9,7 +9,7 @@ export default function ConsultingForStartups() {
       <S.Wrapper>
         <S.Texts>
           <Heading 
-            size="4.4rem"
+            sizeGap="4.4rem"
             title="Consulting For Startups In Fintech"
             subtitle="Our Team consists of proven experts from finance, tech and science. This mix makes it possible for our team to deliver the best results to all our clients."
           />

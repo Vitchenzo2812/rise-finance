@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div<{ size: string }>`
+export const Wrapper = styled.div<{ sizeGap?: string }>`
   display: flex;
   flex-direction: column;
-  gap: ${props => props.size};
+  gap: ${props => props.sizeGap};
   padding: 8rem;
+  align-items: center;
 `
 
-export const Title = styled.h2`
+export const Title = styled.h2<{ sizeW?: string }>`
+  width: ${props => props.sizeW};
   justify-content: center;
   font-size: 5rem;
   font-weight: 600;

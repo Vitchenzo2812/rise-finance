@@ -10,8 +10,6 @@ export const Wrapper = styled.div`
 
   padding: 3rem 9rem;
 
-  position: sticky;
-
   z-index: 100;
 `
 

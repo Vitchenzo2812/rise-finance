@@ -2,14 +2,17 @@ import * as S from './styled';
 
 interface HeadingProps {
   title: string;
-  subtitle: string;
-  size: string;
+  subtitle?: string;
+  sizeGap?: string;
+  sizeW?: string;
 }
 
-export default function Heading({ title, subtitle, size }: HeadingProps) {
+export default function Heading({ title, subtitle, sizeGap, sizeW }: HeadingProps) {
   return(
-    <S.Wrapper size={size}>
-      <S.Title>
+    <S.Wrapper sizeGap={sizeGap}>
+      <S.Title 
+        sizeW={sizeW}    
+      >
         {title}
       </S.Title>
       <S.Subtitle>

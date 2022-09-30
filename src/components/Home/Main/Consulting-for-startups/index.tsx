@@ -12,6 +12,7 @@ export default function ConsultingForStartups() {
             sizeGap="4.4rem"
             title="Consulting For Startups In Fintech"
             subtitle="Our Team consists of proven experts from finance, tech and science. This mix makes it possible for our team to deliver the best results to all our clients."
+            colorText="#121139"
           />
         </S.Texts>
         <S.Graphic />

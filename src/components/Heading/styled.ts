@@ -8,8 +8,9 @@ export const Wrapper = styled.div<{ sizeGap?: string }>`
   align-items: center;
 `
 
-export const Title = styled.h2<{ sizeW?: string }>`
+export const Title = styled.h2<{ sizeW?: string, lineHeight?: string }>`
   width: ${props => props.sizeW};
+  line-height: ${props => props.lineHeight};
   justify-content: center;
   font-size: 5rem;
   font-weight: 600;
@@ -19,9 +20,9 @@ export const Title = styled.h2<{ sizeW?: string }>`
   color: transparent;
 `
 
-export const Subtitle = styled.h2`
+export const Subtitle = styled.h2<{ colorText: string }>`
   font-size: 2.2rem;
   font-weight: 500;
-  color: #121139;
+  color: ${props => props.colorText};
   justify-content: center;
 `

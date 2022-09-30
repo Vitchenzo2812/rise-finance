@@ -11,6 +11,7 @@ export default function CaseStudy() {
         title="Case Study"
         subtitle="Some results from our clients"
         sizeGap="5.1rem"
+        colorText="#121139"
       />
 
       <S.Container>

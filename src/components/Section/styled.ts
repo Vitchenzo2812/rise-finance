@@ -5,8 +5,9 @@ export const Container = styled.div<{ background?: string }>`
   height: max-content;
   background: ${props => props.background};
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  background-attachment: local;
 `
 
 Container.defaultProps = {

@@ -1,6 +1,8 @@
+import * as S from './styled';
+
 import Header from '../../../Header';
 import Section from '../../../Section';
-import * as S from './styled';
+import Button from '../../../Button';
 
 export default function Hero() {
   return(
@@ -11,10 +13,7 @@ export default function Hero() {
         <S.WrapperText>
           <S.Title><S.TitleGradient>Scale Fintech</S.TitleGradient><br/>Safe And Secure</S.Title>
           <S.Description>Ship your fintech products to your customers with fast and reliable processes. Secure and highly customizable. Rise Finance is the best partner for you if you want to scale your finance products worldwide.</S.Description>
-          <S.Button>
-            <span>Consultation</span>
-            <S.ButtonLayer className='button-layer' />
-          </S.Button>
+          <Button width="27.4rem" description='CONSULTATION'/>
         </S.WrapperText>
         <S.WrapperCard>
           <S.CardImage img="url(./public/cards.svg)"/>

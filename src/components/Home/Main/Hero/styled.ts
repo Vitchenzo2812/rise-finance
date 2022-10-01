@@ -4,6 +4,12 @@ export const Container = styled.div`
   display: grid;
   color: #fff;
   padding-top: 10rem;
+
+  @media (max-width: 1084px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const WrapperText = styled.div`
@@ -16,6 +22,8 @@ export const WrapperText = styled.div`
 
 export const WrapperCard = styled.div`
   grid-column: 2;
+  display: flex;
+  align-items: center;
 `
 
 export const Title = styled.h1`
@@ -42,6 +50,11 @@ export const CardImage = styled.div<{ img: string }>`
   background-image: ${props => props.img};
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: 1164px) {
+    width: 65rem;
+    height: 45rem;
+  }
 `
 
 export const Sponsors = styled.div<{ img: string, sizeW: string, sizeH: string }>`
@@ -57,8 +70,7 @@ export const Sponsors = styled.div<{ img: string, sizeW: string, sizeH: string }
 export const Footer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 19.1rem;
+  justify-content: space-between;
 
   padding: 3.5rem;
   padding-bottom: 14.9rem;

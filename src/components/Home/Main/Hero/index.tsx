@@ -7,8 +7,6 @@ import Button from '../../../Button';
 export default function Hero() {
   return(
     <Section background="url(./public/hero.svg)">
-      <Header />
-
       <S.Container>
         <S.WrapperText>
           <S.Title><S.TitleGradient>Scale Fintech</S.TitleGradient><br/>Safe And Secure</S.Title>

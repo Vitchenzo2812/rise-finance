@@ -2,8 +2,13 @@ import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
+  position: sticky;
+
+  top:0;
+  left:0;
 
   width: 100%;
+  height: max-content;
 
   align-items: center;
   justify-content: space-between;
@@ -11,6 +16,12 @@ export const Wrapper = styled.div`
   padding: 3rem 9rem;
 
   z-index: 100;
+  
+  background-image: url(./public/hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  
 `
 
 export const Logo = styled.div`
